@@ -173,9 +173,34 @@
 .deal-title{
     font-size: 50px;
     font-weight: bold;
-
 }
 .deal-dec{
     font-size: 22px;
-
 }
+.deal-pic{
+    display: flex;
+    margin: 120px auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    max-height: 424px;
+    gap: 28px;
+    flex-grow: 1;
+    
+}
+.deal-con-1{
+    background-image: url("/assets/deal-bloom.png");
+    background-repeat: no-repeat; 
+    border-radius: 14px;   
+}
+.deal-con-2{
+    background-image: url("/assets/deal-ana.png");
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.deal-con-3{
+    background-image: url("/assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+
