@@ -88,14 +88,13 @@
 }
 /*main style*/
 .shop{
-     max-width: 1440px;
-     max-height: 140px;
-     margin: 120px auto 50px auto;
+    max-width: 1440px;
+    max-height: 140px;
+    margin: 120px auto 120px auto;
 }
 .about-shop{
     text-align: center;
     gap: 50px;
-   
 }
 .about-title{
     font-size: 50px;
@@ -112,7 +111,6 @@
     margin: 10px auto 110px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 30px;
 }
 .shop-item{
     text-align: center;
@@ -125,6 +123,59 @@
 }
 .item-price{
     font-weight: bold;
+    font-size: 22px;
+}
+
+/* flower & plant lover*/
+.fp-lover{
+    display: flex;
+    max-width: 1440px;
+    max-height: 597px;
+    margin: 0px auto;
+    margin: 1300px auto 50px auto;
+
+}
+.fp-pic{
+    width: 710px;
+    height: 597px;
+}
+#trusted-badge{
+    width: 285px;
+    height: 285px;
+    margin-left: 380px;
+    margin-top: -180px;
+}
+.fp-lover-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.fp-dec{
+    font-size: 22px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.fp-dec-sec{
+    width: 710px;
+    height: 650px;
+    gap: 20px;
+}
+/* deal section style*/
+.deal{
+    justify-content: center;
+    text-align: center;
+    margin: 80px auto;
+    width: 1440px;
+    height: 135px;
+    gap: 15px;
+
+}
+.deal-title{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.deal-dec{
     font-size: 22px;
 
 }
