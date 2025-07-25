@@ -315,7 +315,7 @@ footer{
         width: 365px;
     }
     .about-shop{
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .item-container{
         grid-template-columns: repeat(2, 1fr);
