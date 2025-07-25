@@ -22,7 +22,6 @@
     cursor: pointer;
     color: white;
     width: 270px;
-    
     border: none;
 }
 
@@ -200,6 +199,7 @@
 .deal-con{
     display: flex;
     flex-direction: column;
+   
     align-items: center;
     gap: 20px;
     font-size: 22px;
@@ -243,14 +243,60 @@
     font-size: 40px;
     font-weight: bold;
     color: white;
+    justify-content: center;
     text-align: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken; 
+    background-blend-mode: darken;
 }
 .deal-con-3 a{
     font-size: 28px;
     font-weight: 600;
     color: white;
+}
+/*join section style*/
+.join{
+    background-image: url(/assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 500px;
+    margin: 700px 0px 10px 0px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 80px 10px;
+}
+.join-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.email{
+    width: 644px;
+    height: 53px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+/*footer style*/
+footer{
+    max-width: 1440px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.ft-logo{
+    font-size: 22px;
+}
+.ft-anc{
+     text-decoration: none;
+     text-align: center;
+     flex-direction: column;
+}
+.ft-web{
+    justify-content: center;
+    justify-items: center;
+    gap: 24px;
+
 }
 
