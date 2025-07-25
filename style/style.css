@@ -304,7 +304,7 @@ footer{
 @media screen and (max-width: 767px) {
     .navbar{
         flex-direction: row;
-        
+        margin-left: 30px;
     }
     .hide{
         display: none;
@@ -313,6 +313,9 @@ footer{
         flex-direction: column-reverse;
         margin-top: 500px;
         width: 365px;
+    }
+    .about-shop{
+        margin-left: 50px;
     }
     .item-container{
         grid-template-columns: repeat(2, 1fr);
@@ -323,7 +326,7 @@ footer{
         margin: 2400px auto auto auto;
         width:361px;
         height:648px;
-        margin-left: 10px;
+        margin-left: 50px;
     }
     #trusted-badge{
         display: none;
@@ -333,7 +336,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         margin-top: 1100px;
-        margin-left: 10px;
+        margin-left: 150px;
         width: 365px;
     }
     .deal-pic{
@@ -371,5 +374,6 @@ footer{
     footer{
         flex-direction: column;
         gap: 20px;
+        margin-left: 50px;
     }
 }
