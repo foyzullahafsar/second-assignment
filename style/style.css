@@ -288,15 +288,16 @@ footer{
 .ft-logo{
     font-size: 22px;
 }
-.ft-anc{
+.ft-anc a{
      text-decoration: none;
      text-align: center;
-     flex-direction: column;
+     gap: 20px;
+     font-size: 16px;
+     color: #6B7280;
 }
 .ft-web{
-    justify-content: center;
-    justify-items: center;
-    gap: 24px;
-
+   row-gap: 24px;
 }
+
+/*responsive*/
 
