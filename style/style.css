@@ -301,7 +301,7 @@ footer{
 
 /*responsive*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
     .navbar{
         flex-direction: row;
         
@@ -312,13 +312,18 @@ footer{
     .bnr{
         flex-direction: column-reverse;
         margin-top: 500px;
+        width: 365px;
     }
     .item-container{
         grid-template-columns: repeat(2, 1fr);
+        width: 365px;
     }
     .fp-lover{
         flex-direction: column;
-        margin: 2400px auto 50px auto;
+        margin: 2400px auto auto auto;
+        width:361px;
+        height:648px;
+        margin-left: 10px;
     }
     #trusted-badge{
         display: none;
@@ -328,16 +333,21 @@ footer{
         flex-direction: column;
         justify-content: center;
         margin-top: 1100px;
-        margin-left: 0px;
+        margin-left: 10px;
+        width: 365px;
     }
     .deal-pic{
         flex-direction: column;
-        width: 393px;
+        width: 365px;
         height: 581px;
+    }
+    .deal-con{
+        width: 465px;
     }
     .deal-con-3{
         width: 365px;
-        height: 195px;
+        height: 250px;
+        font-size: 20px;
     }
     .deal-title, .deal-dec{
         justify-content: center;
@@ -349,7 +359,7 @@ footer{
     .join{
         width: 393px;
         height: 275px;
-        margin: 500px auto 20px auto;
+        margin: 500px auto 10px auto;
     }
     .join-title{
         font-size: 20px;
