@@ -301,3 +301,63 @@ footer{
 
 /*responsive*/
 
+@media screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: row;
+    }
+    .hide{
+        display: none;
+    }
+    .bnr{
+        flex-direction: column-reverse;
+        margin-top: 500px;
+    }
+    .item-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fp-lover{
+        flex-direction: column;
+        margin: 2400px auto 50px auto;
+    }
+    #trusted-badge{
+        display: none;
+    }
+    .deal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1100px;
+        margin-left: 0px;
+    }
+    .deal-pic{
+        flex-direction: column;
+        width: 393px;
+        height: 581px;
+    }
+    .deal-con-3{
+        width: 365px;
+    height: 195px;
+    }
+    .deal-title, .deal-dec{
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        width: 393px;
+        height: 117px;i
+    }
+    .join{
+        width: 393px;
+        height: 275px;
+    }
+    .join-title{
+        font-size: 20px;
+    }
+    .email{
+    width: 80%;
+    height: 50px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
