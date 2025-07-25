@@ -304,6 +304,7 @@ footer{
 @media screen and (max-width: 576px) {
     .navbar{
         flex-direction: row;
+        
     }
     .hide{
         display: none;
@@ -336,18 +337,19 @@ footer{
     }
     .deal-con-3{
         width: 365px;
-    height: 195px;
+        height: 195px;
     }
     .deal-title, .deal-dec{
         justify-content: center;
         justify-items: center;
         text-align: center;
         width: 393px;
-        height: 117px;i
+        height: 117px;
     }
     .join{
         width: 393px;
         height: 275px;
+        margin: 500px auto 20px auto;
     }
     .join-title{
         font-size: 20px;
