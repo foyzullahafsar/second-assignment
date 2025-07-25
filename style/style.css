@@ -132,7 +132,7 @@
     max-width: 1440px;
     max-height: 597px;
     margin: 0px auto;
-    margin: 1300px auto 50px auto;
+    margin: 1350px auto 50px auto;
 
 }
 .fp-pic{
@@ -142,8 +142,17 @@
 #trusted-badge{
     width: 285px;
     height: 285px;
-    margin-left: 380px;
-    margin-top: -180px;
+    margin-left: 390px;
+    margin-top: -200px;
+    animation: rotate360 10s linear infinite;
+}
+@keyframes rotate360{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 .fp-lover-title{
     font-size: 50px;
@@ -177,30 +186,71 @@
 .deal-dec{
     font-size: 22px;
 }
+
 .deal-pic{
+    margin-top: 100px;
     display: flex;
-    margin: 120px auto;
     justify-content: center;
     align-items: center;
-    max-width: 1440px;
-    max-height: 424px;
-    gap: 28px;
-    flex-grow: 1;
+    gap: 24px;
+    margin-bottom: 100px;
+   
+}
+
+.deal-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
     
+}
+.deal-con a{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
 }
 .deal-con-1{
     background-image: url("/assets/deal-bloom.png");
-    background-repeat: no-repeat; 
-    border-radius: 14px;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 365px;
+    height: 195px; 
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;  
 }
 .deal-con-2{
     background-image: url("/assets/deal-ana.png");
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 365px;
+    height: 195px;
     border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken; 
 }
 .deal-con-3{
     background-image: url("/assets/deal-zabo.png");
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 753px;
+    height: 412px;
     border-radius: 14px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken; 
+}
+.deal-con-3 a{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
 }
 
